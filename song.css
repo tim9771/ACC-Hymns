@@ -19,8 +19,12 @@ a {
 
 
 .menu {
-    background-color: #fcfcfc;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
 }
 
 .title {
@@ -32,7 +36,7 @@ a {
 }
 
 img {
-    margin-top: 10px;
+    margin-top: 80px;
     width: 100%;
     z-index: -1;
     position: relative;
