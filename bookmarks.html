@@ -6,14 +6,14 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="search.css">
+        <link rel="stylesheet" href="bookmarks.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <h1>Search</h1>
+        <h1>Bookmarks</h1>
         <form role="search" id="form">
             <input type="search" id="query" name="q"
              placeholder="Search for a song title or number..."
@@ -23,47 +23,11 @@
             </button>
         </form>
 
-        <h2 class="topicalindexheading">Topical Index</h2>
-        <div class="topicalindex">
-            <a href="#" class="topicalindexbutton">
-                <div>🙌</div>
-                <div>Praise</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>🙏</div>
-                <div>Prayer</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>❤️</div>
-                <div>Love</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>🕊️</div>
-                <div>Peace</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>⛪</div>
-                <div>Faith</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>📖</div>
-                <div>Opening</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>👋</div>
-                <div>Closing</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>🌟</div>
-                <div>Christmas</div>
-            </a>
-            <a href="#" class="topicalindexbutton">
-                <div>✝️</div>
-                <div>Easter</div>
-            </a>
+        <div class="title">
+            <h2>Bookmarked Hymns</h2>
+            <a href="#"><ion-icon name="filter-outline"></ion-icon></a>
         </div>
-
-        <h2>Recent Hymns</h2>
+        
         <a href="#">
             <div class="book-zionsharp">
                 <div class="book-gospelhymns--left">
@@ -117,12 +81,12 @@
             <ion-icon name="home-outline" class="nav__icon"></ion-icon>
             <span class="nav__text">Home</span>
         </a>
-        <a href="search.html" class="nav__link nav__link--active">
-            <ion-icon name="search" class="nav__icon"></ion-icon>
+        <a href="search.html" class="nav__link">
+            <ion-icon name="search-outline" class="nav__icon"></ion-icon>
             <span class="nav__text">Search</span>
         </a>
-        <a href="bookmarks.html" class="nav__link">
-            <ion-icon name="bookmark-outline" class="nav__icon"></ion-icon>
+        <a href="#" class="nav__link nav__link--active">
+            <ion-icon name="bookmark" class="nav__icon"></ion-icon>
             <span class="nav__text">Bookmarks</span>
         </a>
         <a href="settings.html" class="nav__link">
