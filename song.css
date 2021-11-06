@@ -19,11 +19,11 @@ a {
 
 
 .menu {
+    background-color: #fcfcfc;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-    background-color: #fcfcfc;
     font-size: 12px;
     display: flex;
     justify-content: space-between;
