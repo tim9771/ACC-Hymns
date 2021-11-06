@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <h1>Search</h1>
         <form role="search" id="form">
-            <input type="search" id="query" name="q"
+            <input type="search" id="searchBar" name="searchBar"
              placeholder="Search for a song title or number..."
              aria-label="Search through site content">
             <button>
@@ -63,55 +63,10 @@
             </a>
         </div>
 
-        <h2>Recent Hymns</h2>
-        <a href="#">
-            <div class="book-zionsharp">
-                <div class="book-gospelhymns--left">
-                    <div class="song__title">I am Jesus’ little lamb</div>
-                    <div class="book__title">Zion's Harp</div>
-                </div>
-                <div class="booktext--right">
-                    <div class="song__number">#17</div>
-                    <ion-icon name="ellipsis-vertical"></ion-icon>
-                </div>
-            </div>
-        </a>
-        <a href="#">
-            <div class="book-gospelhymns">
-                <div class="book-gospelhymns--left">
-                    <div class="song__title">Christ Liveth In Me</div>
-                    <div class="book__title">Gospel Hymns</div>
-                </div>
-                <div class="booktext--right">
-                    <div class="song__number">#471</div>
-                    <ion-icon name="ellipsis-vertical"></ion-icon>
-                </div>
-            </div>
-        </a>
-        <a href="#">
-            <div class="book-higherground">
-                <div class="book-gospelhymns--left">
-                    <div class="song__title">Jesus Lover of my Soul</div>
-                    <div class="book__title">Higher Ground</div>
-                </div>
-                <div class="booktext--right">
-                    <div class="song__number">#110</div>
-                    <ion-icon name="ellipsis-vertical"></ion-icon>
-                </div>
-            </div>
-        </a>
-        <a href="#">
-            <div class="book-juniorhymnal">
-                <div class="book-gospelhymns--left">
-                    <div class="song__title">Jesus Loves Me</div>
-                    <div class="book__title">Juniour Hymnal</div>
-                </div>
-                <div class="booktext--right">
-                    <div class="song__number">#128</div>
-                    <ion-icon name="ellipsis-vertical"></ion-icon>
-                </div>
-            </div>
-        </a>
+        <h2>Search Results</h2>
+
+        <ul id="charactersList"></ul>
+
         <nav class="nav">
         <a href="index.html" class="nav__link">
             <ion-icon name="home-outline" class="nav__icon"></ion-icon>
@@ -132,6 +87,10 @@
         </nav>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        <script src="zh.js"></script>
+        <script src="app.js"></script>
+        
     </body>
 
     
